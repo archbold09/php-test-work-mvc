@@ -169,7 +169,7 @@ if (isset($_POST["petition"])) {
       if ($data) {
         $response = [
           "state" => true,
-          "message" => "Usuario Eliminado"
+          "message" => "Producto eliminado"
         ];
       } else {
         $response = [
